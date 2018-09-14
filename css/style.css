@@ -1,0 +1,356 @@
+
+body{
+  font-family: 'PT Sans', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  direction:ltr;
+  color:#010101;
+}
+
+.heroSection{
+  background:#fcdb00;
+  width:100%;
+  height:auto;
+  padding-top:30px;
+  box-sizing:border-box;
+  padding-bottom: 300px;
+}
+
+.container{
+  width:940px;
+  height: auto;
+  margin:0px auto;
+}
+
+
+
+nav{
+margin-bottom: 70px;
+
+}
+
+.logo{
+  float: left;
+  width:50%;
+  height: auto;
+}
+
+.rightNav  {
+  float: right;
+  width:50%;
+  text-align: right;
+}
+
+.clear{
+  clear: both;
+}
+
+
+.rightNav ul li{
+    list-style-type:none;
+    display: inline-block;
+}
+
+  .rightNav ul li a{
+
+      text-decoration: none;
+      font-size: 22px;
+      font-weight:bold;
+      margin-left: 70px;
+      color:#010101;
+    }
+
+.rightNav ul li:first-child a {
+  margin-left: 0px;
+}
+
+.rightNav ul li a:hover{
+  text-decoration: underline;
+}
+
+.ipadImg{
+  float: right;
+  width:50%;
+  height: auto;
+  text-align: center;
+  padding-left: 75px;
+  box-sizing: border-box;
+
+
+
+}
+
+.descDiv{
+float:left;
+height: auto;
+text-align: left;
+width: 50%;
+}
+
+.storeLinks{
+  color:#010101;
+  font-size:42px;
+  margin-right: 35px;
+  text-decoration: none;
+}
+
+.descDiv p{
+  padding-right: 60px;
+}
+
+/*********************************************************************************  */
+/*  feature section Properities starts */
+.featureSection{
+  background: #ffffff;
+  width:100%;
+  height: auto;
+  padding-top: 105px;
+  padding-bottom: 500px;
+  box-sizing: border-box;
+}
+
+.featureSection h2{
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+
+}
+
+.titleDes{
+  text-align: center;
+  font-size: 20px;
+  color:#313841;
+  padding-left: 80px;
+  padding-bottom: 50px;
+  padding-top: 5px;
+  box-sizing: border-box;
+
+}
+
+.row{
+  width: 100%;
+  height: auto;
+}
+
+.gride{
+  float: left;
+  height: auto;
+  width:33.3%; /* 100/3 */
+
+  display: inline-block;
+  padding-bottom: 60px;
+  box-sizing: border-box;
+
+}
+
+.grideIcon{
+  float: left;
+  height: auto;
+   width:30%;
+  /* width:60px; */
+  text-align:center;
+  font-size: 50px;
+
+}
+
+
+.grideDes{
+  float: right;
+  height: auto;
+   width: 70%;
+   /* width: calc(100%-60px); */
+  padding-left: 15px;
+  box-sizing: border-box;
+
+}
+
+.grideDes h3{
+  margin-top: 0px;
+  font-size: 20px;
+}
+
+.grideDes p{
+  color:#898989;
+  font-size: 16px;
+}
+/***********************************************************************************************  */
+/*Properities of last section  */
+.lastSection{
+  background: #000000;
+  width:100%;
+  height: auto;
+}
+
+.lastcontainer{
+  width:940px;
+  height: auto;
+  margin:0px auto;
+  background: #000000;
+  box-sizing: border-box;
+
+}
+
+.lastSection h2{
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: #fcdb00;
+  padding-top: 60px;
+
+  box-sizing: border-box;
+}
+
+.lastSection p{
+  color:#898989;
+  font-size: 16px;
+  text-align:center;
+}
+
+
+
+.Form{
+  width: 100%;
+  height: auto;
+  background:#000000;
+  padding: 50px;
+  padding-bottom:45px;
+  padding-top:20px;
+  box-sizing: border-box;
+  text-align: center;
+
+}
+
+.enterbox{
+float: left;
+height: auto;
+width: 60%;
+margin: 0px;
+box-sizing:border-box;
+box-sizing: border-box;
+}
+
+.enterBox{
+border-radius: 6px;
+height: 40px;
+width: 500px;
+border: 0px;
+outline: 0px;
+padding: 20px;
+margin-left: 110px;
+box-sizing: border-box;
+
+}
+
+.enterBox:focus{
+  border:1px solid #fcdb00 ;
+  border-radius: 5px;
+}
+
+.submitButton{
+  float: right;
+  width: 40%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.submit{
+border-radius: 5px;
+height: 40px;
+width:100px;
+background:#fcdb00;
+border: 0px;
+outline: 0px;
+font-weight: bold;
+border:2px solid #fcdb00 ;
+
+}
+
+.submit:focus{
+  border:2px solid #fcdb00 ;
+  border-radius: 5px;
+  color: #fcdb00;
+  background:#000000;
+
+}
+
+.clear{
+  clear:both;
+}
+
+.socialIcons{
+  float: left;
+  width: 100%;
+  height: auto;
+  background: #000000;
+  text-align: center;
+  display: inline-block;
+  padding-bottom: 45px;
+}
+
+.iconShape{
+font-size: 40px;
+color:#fcdb00;
+margin: 10px;
+}
+
+.footerDivs{
+  width: 100%;
+  min-height: : 200px;
+  background: #000000;
+  display: inline-block;
+  padding: 30px;
+  padding-bottom: 70px;
+  box-sizing: border-box;
+}
+
+
+.firstFootertDiv{
+  width: 23%;
+  height: auto;
+  float: left;
+
+
+}
+
+.secodFootertDiv{
+  width: 17%;
+  height: auto;
+  float: left;
+
+}
+
+.thirdFootertDiv{
+  width: 20%;
+  height: auto;
+  float: left;
+
+}
+
+.fourthFootertDiv{
+  width: 20%;
+  height: auto;
+  float: left;
+
+}
+
+.fifthFootertDiv{
+  width: 20%;
+  height: auto;
+  float: left;
+
+}
+
+.firstFootertDiv p{
+  text-align: left;
+  font-size: 16px;
+}
+
+.footerDivs a{
+  text-decoration: none;
+  color:#898989;
+}
+
+.footerDivs a:hover{
+color:#fcdb00 ;
+text-decoration: underline;
+}
